@@ -1,0 +1,33 @@
+#logo {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#header-text {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.container {
+}
+
+#form-header {
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#account-form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 50px auto;
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 600px;
+}
+
+#submit-button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
