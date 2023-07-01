@@ -8,9 +8,6 @@
     margin-left: 20px;
 }
 
-.container {
-}
-
 #form-header {
     margin: 0 auto;
     margin-top: 20px;
@@ -30,4 +27,10 @@
 #submit-button {
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+footer {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
 }
