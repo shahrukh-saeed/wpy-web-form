@@ -34,3 +34,10 @@ footer {
     width: fit-content;
     margin: 0 auto;
 }
+
+#success {
+    width: fit-content;
+    margin: 50px auto;
+    border-radius: 20px;
+    padding: 20px;
+}
