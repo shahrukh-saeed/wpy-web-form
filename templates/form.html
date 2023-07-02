@@ -7,8 +7,8 @@
     <label class="form-label">Email <input name="email" required type="email"
             class="form-control" /></label>
     <label class="form-label">Password <input name="password" required type="password" class="form-control" /></label>
-    <label class="form-label">Phone Number <input name="phone" placeholder="123-456-7890" required type="tel"
-            class="form-control" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" /></label>
+    <label class="form-label">Phone Number <input name="phone" required type="tel"
+            class="form-control" oninput="format(this)" maxlength="14"/></label>
     <label class="form-label">Address <input name="address" required type="text" class="form-control"
             maxlength="255" /></label>
     <label class="form-label">City <input name="city" required type="text" class="form-control"
@@ -29,4 +29,5 @@
     <button id="submit-button" class="btn btn-primary" type="submit">Sign Up!</button>
 </form>
 
-<script src="/static/countries.js"></script>
+<script src="/static/provinces.js"></script>
+<script src="/static/phone_format.js"></script>
