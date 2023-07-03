@@ -10,6 +10,11 @@ I have hosted the webpage on Render and you can test it at https://wpy-web-form.
 - Comprehensive front-end validation using HTML5 and JavaScript
 - Data stored in MySQL database hosted on PlanetScale
 
+    **SQL command used to insert data into MySQL database (found in database.py)**
+
+    INSERT INTO users (firstName, lastName, email, password, phone, address, city, province, country)
+    VALUES ('{data['firstName']}', '{data['lastName']}', '{data['email']}', '{data['password']}', '{data['phone']}', '{data['address']}', '{data['city']}', '{data['province']}', '{data['country']}')
+
 ## Screenshots
 
 **Desktop**
