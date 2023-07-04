@@ -12,7 +12,7 @@ def sign_up():
     data = request.form
     # store in db and display acknowledgement
     add_user_to_db(data)
-    return render_template('signup_success.html', name=data['firstName'])
+    return render_template('signup_success.html', name=data['firstName'].capitalize())
 
 
 if __name__ == "__main__":
