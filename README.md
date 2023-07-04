@@ -34,6 +34,9 @@ I have hosted the webpage on Render and you can test it at https://wpy-web-form.
     VALUES ('{data['firstName']}', '{data['lastName']}', '{data['email']}', '{data['password']}', '{data['phone']}', '{data['address']}', '{data['city']}', '{data['province']}', '{data['country']}')
     ```
 
+    **Sample Data**
+    ![Sample Data](https://i.imgur.com/N2z0RGk.jpg)
+
 ## Screenshots
 
 **Desktop**
